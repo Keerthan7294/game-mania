@@ -11,13 +11,13 @@ git init
 git add .
 git commit -m "Initial Game Mania deploy"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/game-mania.git
+git remote add origin https://github.com/Keerthan7294/game-mania.git
 git push -u origin main
 ```
 
 2. Click the button below to deploy via Render Blueprint:
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/blueprints?repo=https://github.com/YOUR_USERNAME/game-mania)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/blueprints?repo=https://github.com/Keerthan7294/game-mania)
 
 3. Render will create a free Web Service from `render.yaml`.
 
