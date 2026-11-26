@@ -1,0 +1,16 @@
+{
+  "name": "game-mania",
+  "version": "1.0.0",
+  "description": "AirConsole-style party gaming platform",
+  "private": true,
+  "scripts": {
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install",
+    "postinstall": "npm run install:server && npm run install:client",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
