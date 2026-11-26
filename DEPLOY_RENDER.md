@@ -17,7 +17,7 @@ git push -u origin main
 
 2. Click the button below to deploy via Render Blueprint:
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/blueprints?repo=https://github.com/Keerthan7294/game-mania)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Keerthan7294/game-mania)
 
 3. Render will create a free Web Service from `render.yaml`.
 

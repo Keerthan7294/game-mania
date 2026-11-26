@@ -85,7 +85,7 @@ The project includes a Render Blueprint (`render.yaml`) for one-click deployment
 1. Push this repo to GitHub.
 2. Click **Deploy to Render**:
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/blueprints?repo=https://github.com/Keerthan7294/game-mania)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Keerthan7294/game-mania)
 
 3. Render creates a free Node.js Web Service that hosts both the server and the built client.
 
