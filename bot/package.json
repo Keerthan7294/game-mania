@@ -1,0 +1,13 @@
+{
+  "name": "game-mania-bot",
+  "version": "1.0.0",
+  "description": "AI bot player for Game Mania",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js",
+    "bot": "node bot.js"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.7.5"
+  }
+}

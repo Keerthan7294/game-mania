@@ -97,6 +97,53 @@ After deploy:
 
 See `DEPLOY_RENDER.md` for detailed manual deploy steps.
 
+## Play with AI bots
+
+A bot player is included in the `/bot` folder. Bots join as controllers, ready up, and automatically play Raft Blast Co-Op by sliding to the back of the raft and blasting forward.
+
+### Run bots locally
+
+```bash
+cd bot
+npm install
+node bot.js <ROOM_CODE>
+```
+
+Example:
+
+```bash
+node bot.js ABC12
+```
+
+Run multiple bots:
+
+```bash
+set BOT_COUNT=3
+node bot.js ABC12
+```
+
+### How bots work
+
+- Connect to the server as a controller
+- Join the room code you provide
+- Automatically ready up
+- Listen to game state broadcast from the console
+- Slide to the back of the raft (`-PI/2` angle)
+- Blast continuously when positioned at the back
+- Stop blasting when gas is empty to recharge
+
+### Use bots on Render
+
+Set the server URL:
+
+```bash
+set SERVER_URL=https://game-mania-1.onrender.com
+set BOT_COUNT=2
+node bot.js YOUR_ROOM_CODE
+```
+
+Bots work alongside real phone players, so you can play solo with bots or fill empty seats in a 2–4 player game.
+
 ## Hosting publicly (temporary tunnel)
 
 To expose the local server over the internet right away:
